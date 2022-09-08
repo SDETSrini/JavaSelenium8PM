@@ -8,11 +8,6 @@ public class HomePageTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		
-	
-		//Methods
-		
-
 		// TC001 - Verify that when unauth user access the homepage, cart Item should be displayed as zero
 
 		// Launch Browser and enter the site  - www.amazon.in
