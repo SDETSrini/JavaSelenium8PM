@@ -9,9 +9,12 @@ public class HomePageTest {
 	public static void main(String[] args) throws InterruptedException {
 		
 		// TC001 - Verify that when unauth user access the homepage, cart Item should be displayed as zero
-
 		// Launch Browser and enter the site  - www.amazon.in
-	
+		
+		// this method is to learn , how to launch the browser , pass the endpoint and capture the tile
+		// Created by Srini on 08/09
+		// Updated by 
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\srini\\8pmSelenium\\AmazonWebAutomationFramework\\src\\executables\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
 		driver.manage().window().maximize();		//maximize the window
