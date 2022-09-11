@@ -14,7 +14,7 @@ public class HomePageTest {
 		// this method is to learn , how to launch the browser , pass the endpoint and capture the tile
 		// Created by Srini on 08/09
 		// Updated by Rajendra on 10/09
-		
+		//rajendra eswararaju updated 11/09
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\srini\\8pmSelenium\\AmazonWebAutomationFramework\\src\\executables\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
 		driver.manage().window().maximize();		//maximize the window
